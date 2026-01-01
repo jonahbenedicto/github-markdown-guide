@@ -2,6 +2,12 @@
 
 A Comprehensive Guide to Markdown on GitHub.
 
+# Custom Link
+
+\<a name="custom-link"\>\<\/a\>
+
+<a name="custom-link"></a>
+
 # Table of Contents
 
 - [Paragraph](#paragraph)
@@ -9,6 +15,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Style (Bold, Italic, Subscript, Superscript, Underline)](#style)
 - [Quote](#quote)
 - [Code](#code)
+- [Link](#link)
 
 # Paragraph
 
@@ -102,3 +109,6 @@ Use \[Text\]\(URL\)
 
 **Relative Link:**
 
+**Custom Link:**
+\[Custom Link\]\(#custom-link\)
+[Custom Link](#custom-link)
