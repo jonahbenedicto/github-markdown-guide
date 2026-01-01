@@ -214,8 +214,8 @@ Input:
 
 Output:
 
-- Item
-* Item
+- Item\
+* Item\
 + Item
 
 <br/>
@@ -224,13 +224,14 @@ Output:
 
 Input:
 
-\1. Item 
-\2. Item
-\3. Item
+1\. Item\
+2\. Item\
+3\. Item
 
 Output:
 
 1. Item
 2. Item
 3. Item
+
 
