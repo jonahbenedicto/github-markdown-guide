@@ -4,8 +4,9 @@ A Comprehensive Guide to Markdown on GitHub.
 
 # Table of Contents
 
-- [Paragraph Text](#paragraph)
-- [Heading Text](#heading)
+- [Paragraph](#paragraph)
+- [Heading](#heading)
+- [Text Style (Bold, Italic, Subscript, Superscript, Underline)](#text-style)
 
 # Paragraph
 
@@ -39,4 +40,10 @@ Use `#` symbol
 
 ###### Heading 6
 
-A table of contents is automatically added when you use two or more headings
+A table of contents is automatically added when you use two or more headings.
+
+# Text Style
+
+
+
+
