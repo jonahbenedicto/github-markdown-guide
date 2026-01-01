@@ -276,7 +276,7 @@ Output:
 
 > **Use :emojicode:**
 
-**Input:** \:smile\:
+**Input:** \:smile:
 
 **Output:** :smile:
 
