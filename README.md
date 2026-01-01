@@ -2,11 +2,11 @@
 
 A Comprehensive Guide to Markdown on GitHub.
 
-# Custom Link
+# Custom Anchor Point
 
-\<a name="custom-link"\>\<\/a\>
+\<a name="custom-anchor-point"\>\<\/a\>
 
-<a name="custom-link"></a>
+<a name="custom-anchor-point"></a>
 
 # Table of Contents
 
@@ -109,6 +109,6 @@ Use \[Text\]\(URL\)
 
 **Relative Link:**
 
-**Custom Link:**
-\[Custom Link\]\(#custom-link\)
-[Custom Link](#custom-link)
+**Custom Anchor Link:**
+\[Custom Anchor Link\]\(#custom-anchor-point\)
+[Custom Anchor Link](#custom-anchor-point)
