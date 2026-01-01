@@ -30,8 +30,6 @@ Use `#` symbol
 
 \#\#\#\#\#\# Heading 6
 
-<details>
-    <summary>See</summary>
 # Heading 1
 
 ## Heading 2
@@ -43,8 +41,6 @@ Use `#` symbol
 ##### Heading 5
 
 ###### Heading 6
-
-</details>
 
 A table of contents is automatically added when you use two or more headings.
 
@@ -94,8 +90,15 @@ print("Python block code")
 
 # Link
 
-\[Text\]\(URL\)
+Use \[Text\]\(URL\)
 
-\[Google\]\(Google.com\)
+**Normal Link:**
+\[Google\]\(https://www.google.com\)
+[Google](https://www.google.com)
 
-\[\](\
+**Heading Link:**
+\[Table of Contents\]\(#table-of-contents\)
+[Table of Contents](#table-of-contents)
+
+**Relative Link:**
+
