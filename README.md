@@ -18,7 +18,8 @@ Default
 
 # Heading
 
-**Use `#` symbol:**
+> [!NOTE]
+> Use `#` symbol
 
 \# Heading 1
 
@@ -32,9 +33,8 @@ Default
 
 \#\#\#\#\#\# Heading 6
 
----
-
-**Preview:**
+> [!NOTE]
+> Preview
 
 # Heading 1
 
@@ -47,6 +47,9 @@ Default
 ##### Heading 5
 
 ###### Heading 6
+
+> [!Note]
+> Additional
 
 A table of contents is automatically added when you use two or more headings.
 
