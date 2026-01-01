@@ -2,12 +2,6 @@
 
 A Comprehensive Guide to Markdown on GitHub.
 
-<br/>
-
-<br/>
-
-<br/>
-
 
 # Table of Contents
 
@@ -23,13 +17,9 @@ A Comprehensive Guide to Markdown on GitHub.
 
 <br/>
 
-<br/>
-
 # Paragraph
 
 Default text
-
-<br/>
 
 <br/>
 
@@ -40,6 +30,8 @@ Default text
 > **Use `#` symbol:**
 
 <br/>
+
+**Markdown:**
 
 \# Heading 1
 
@@ -54,6 +46,8 @@ Default text
 \#\#\#\#\#\# Heading 6
 
 <br/>
+
+**Output:**
 
 # Heading 1
 
@@ -72,8 +66,6 @@ Default text
 
 <br/>
 
-<br/>
-
 
 # Style
 
@@ -86,6 +78,10 @@ Default text
 | Subscript | `<sub> </sub>` | None | This is <br/> \<sub\>subscript\<\/sub\> <br/> text | This is <br/> <sub>subscript</sub> <br/> text |
 | Superscript | `<sup> </sup>` | None | This is <br/> \<sup\>superscript\<\/sup\> <br/> text | This is <br/> <sup>superscript</sup> <br/> text |
 | Underline | `<ins> </ins>` | None | this is <br/> \<ins\>underline\<\/ins\> <br/> text | This is <br/> <ins>underline</ins> <br/> text |
+
+<br/>
+
+<br/>
 
 # Quote
 
