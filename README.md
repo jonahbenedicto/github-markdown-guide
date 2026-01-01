@@ -18,7 +18,7 @@ Default
 
 # Heading
 
-Use `#` symbol
+**Use `#` symbol**
 
 \# Heading 1
 
@@ -32,7 +32,7 @@ Use `#` symbol
 
 \#\#\#\#\#\# Heading 6
 
----
+**Preview**
 
 # Heading 1
 
