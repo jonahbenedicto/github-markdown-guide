@@ -10,6 +10,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Quote](#quote)
 - [Code](#code)
 - [Link](#link)
+- [Line break](#line-break)
 
 # Paragraph
 
@@ -121,7 +122,7 @@ Hello, \\ World!
 
 Bye, \<br\/\> World!
 
-Hello, \ World!
+Hello,\ World!
 
 Bye, <br/> World!
 
