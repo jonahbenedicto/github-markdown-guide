@@ -2,6 +2,13 @@
 
 A Comprehensive Guide to Markdown on GitHub.
 
+<br/>
+
+<br/>
+
+<br/>
+
+
 # Table of Contents
 
 - [Paragraph](#paragraph)
@@ -12,13 +19,27 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Link](#link)
 - [Line break](#line-break)
 
+<br/>
+
+<br/>
+
+<br/>
+
 # Paragraph
 
-Default
+Default text
+
+<br/>
+
+<br/>
+
+<br/>
 
 # Heading
 
 > **Use `#` symbol:**
+
+<br/>
 
 \# Heading 1
 
@@ -31,6 +52,8 @@ Default
 \#\#\#\#\# Heading 5
 
 \#\#\#\#\#\# Heading 6
+
+<br/>
 
 # Heading 1
 
@@ -45,7 +68,11 @@ Default
 ###### Heading 6
 
 
+<br/>
 
+<br/>
+
+<br/>
 
 
 # Style
