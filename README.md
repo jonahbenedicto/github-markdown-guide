@@ -13,17 +13,21 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Link](#link)
 - [Line break](#line-break)
 
+
 <br/>
 
 <br/>
+
 
 # Paragraph
 
-Default text
+> **Use default text**
+
 
 <br/>
 
 <br/>
+
 
 # Heading
 
@@ -79,21 +83,42 @@ Default text
 | Superscript | `<sup> </sup>` | None | This is <br/> \<sup\>superscript\<\/sup\> <br/> text | This is <br/> <sup>superscript</sup> <br/> text |
 | Underline | `<ins> </ins>` | None | this is <br/> \<ins\>underline\<\/ins\> <br/> text | This is <br/> <ins>underline</ins> <br/> text |
 
+
 <br/>
 
 <br/>
+
+
 
 # Quote
 
 > **Use `>` symbol:**
 
+<br/>
+
+**Markdown:**
+
 \> Quote
 
+<br/>
+
+**Output:**
+
 > Quote
+
+
+<br/>
+
+<br/>
+
 
 # Code
 
 > **Use `` ` `` symbol:**
+
+<br/>
+
+**Markdown:**
 
 \`Inline code\`
 
@@ -105,6 +130,10 @@ Block code <br/>
 Python block code <br/>
 \`\`\`
 
+<br/>
+
+**Output:**
+
 `Inline code`
 
 ```
@@ -114,6 +143,12 @@ Block code
 ```python
 print("Python block code")
 ```
+
+
+<br/>
+
+<br/>
+
 
 # Link
 
