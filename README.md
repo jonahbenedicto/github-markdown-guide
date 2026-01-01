@@ -6,8 +6,9 @@ A Comprehensive Guide to Markdown on GitHub.
 
 - [Paragraph](#paragraph)
 - [Heading](#heading)
-- [Text Style (Bold, Italic, Subscript, Superscript, Underline)](#text-style)
+- [Style (Bold, Italic, Subscript, Superscript, Underline)](#style)
 - [Quote](#quote)
+- [Code](#code)
 
 # Paragraph
 
@@ -43,7 +44,7 @@ Use `#` symbol
 
 A table of contents is automatically added when you use two or more headings.
 
-# Text Style
+# Style
 
 | Style | Syntax | Keyboard Shortcut | Example | Output |
 |---|---|---|---|---|
@@ -62,5 +63,11 @@ Use `>` symbol
 \> Quote
 
 > Quote
+
+# Code
+
+Use `\`` symbol
+
+\`Inline code\`
 
 
