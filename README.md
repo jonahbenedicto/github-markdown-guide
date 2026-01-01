@@ -15,6 +15,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Line break](#line-break)
 - [Image](#image)
 - [List](#list)
+- [Emoji](#emoji)
 
 <br/>
 
@@ -259,7 +260,7 @@ Output:
 
 Input:
 
-\- \[x\]
+\- \[x\]\
 \- \[ \]
 
 <br/>
@@ -268,5 +269,15 @@ Output:
 
 - [x] Task
 - [ ] Task
+
+<br/>
+
+# Emoji
+
+> **Use :emojicode:**
+
+**Input:** \:smile\:
+
+**Output:** :smile:
 
 
