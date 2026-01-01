@@ -13,7 +13,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Link](#link)
 - [Line break](#line-break)
 
-<br/>
+---
 
 # Paragraph
 
