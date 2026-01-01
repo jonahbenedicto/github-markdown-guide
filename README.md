@@ -154,11 +154,15 @@ print("Python block code")
 
 > **Use \[Text\]\(URL\)**
 
+<br/>
+
 **Normal Link:**
 
 Input: \[Google\]\(https://www.google.com\)
 
 Output: [Google](https://www.google.com)
+
+<br/>
 
 **Heading Link:**
 
@@ -166,7 +170,11 @@ Input: \[Table of Contents\]\(#table-of-contents\)
 
 Output: [Table of Contents](#table-of-contents)
 
+<br/>
+
 **Relative Link:**
+
+<br/>
 
 **Custom Anchor Link:**
 
