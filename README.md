@@ -77,15 +77,13 @@ Use `#` symbol.
 
 # Quote
 
-> **Use `>` symbol:**
+Use `>` symbol.
 
 <br/>
 
 **Input:**
 
-\> Quote
-
-<br/>
+`> Quote`
 
 **Output:**
 
@@ -93,29 +91,31 @@ Use `#` symbol.
 
 # Code
 
-> **Use `` ` `` symbol:**
-
-<br/>
+Use `` ` `` symbol.
 
 **Input:**
 
-\`Inline code\`
+````
+`Inline code`
+````
 
-\`\`\` <br/>
-Block code <br/>
-\`\`\`
+````
+```
+Block code
+```
+````
 
-\`\`\`\` <br/>
-\`\`\` <br/>
-Code with back ticks <br/>
-\`\`\` <br/>
-\`\`\`\`
+`````
+````
+Code with back ticks
+````
+`````
 
-\`\`\`python <br/>
-Python block code <br/>
-\`\`\`
-
-<br/>
+````
+```python
+print("Hello, World!")
+```
+````
 
 **Output:**
 
@@ -132,10 +132,8 @@ Code with backticks
 ````
 
 ```python
-print("Python block code")
+print("Hello, World!")
 ```
-
-<br/>
 
 # Link
 
