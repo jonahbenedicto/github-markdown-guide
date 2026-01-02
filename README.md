@@ -370,9 +370,13 @@ To stop automatically formatting your text as markdown:
 
 **Input:**
 
-`> Note`
+```
+> Note
+```
 
-`\> Note`
+```
+\> Note
+```
 
 **Output:**
 
