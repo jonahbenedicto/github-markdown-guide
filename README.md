@@ -19,6 +19,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Footnote](#footnote)
 - [Alert](#alert)
 - [Comment](#comment)
+- [Ignore](#markdown)
 
 <br/>
 
@@ -346,5 +347,7 @@ Reference [^1]
 > **Use `<!-- Comment -->`**
 
 
+# Ignore Markdown
 
+> **Use `\`**
 
