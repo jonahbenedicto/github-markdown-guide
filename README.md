@@ -1,6 +1,6 @@
-# GitHub Markdown
+# GitHub Markdown Guide
 
-A Comprehensive Guide to Markdown on GitHub.
+A comprehensive guide for markdown on github
 
 # Table of Contents
 
