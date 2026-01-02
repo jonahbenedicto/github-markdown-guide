@@ -1,8 +1,7 @@
 # GitHub Markdown
 
 A Comprehensive Guide to Markdown on GitHub.
-
-<br/>
+br/>
 
 # Table of Contents
 
@@ -23,6 +22,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Table](#table)
 - [Collapsed Section](#collapsed-section)
 - [Diagram](#diagram)
+- [Math](#math)
 
 <br/>
 
@@ -118,6 +118,12 @@ A Comprehensive Guide to Markdown on GitHub.
 Block code <br/>
 \`\`\`
 
+\`\`\`\` <br/>
+\`\`\` <br/>
+Code with back ticks <br/>
+\`\`\` <br/>
+\`\`\`\`
+
 \`\`\`python <br/>
 Python block code <br/>
 \`\`\`
@@ -131,6 +137,12 @@ Python block code <br/>
 ```
 Block code
 ```
+
+````
+```
+Code with backticks
+```
+````
 
 ```python
 print("Python block code")
@@ -654,4 +666,32 @@ solid cube_corner
   endfacet
 endsolid
 ```
+
+<br/>
+
+# Math
+
+> ** Use `$ $` or `$$ $$`**
+
+<br/>
+
+**Inline Math:**
+
+Input:
+`$\sqrt{3x-1}+(1+x)^2$`
+
+Output:
+$\sqrt{3x-1}+(1+x)^2$
+
+<br/>
+
+**Math Block: **
+
+Input:
+`$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$`
+
+Output:
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+
 
