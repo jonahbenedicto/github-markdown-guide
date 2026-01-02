@@ -18,6 +18,7 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Emoji](#emoji)
 - [Footnote](#footnote)
 - [Alert](#alert)
+- [Comment](#comment)
 
 <br/>
 
@@ -306,19 +307,19 @@ Reference [^1]
 
 # Alert
 
-\> [!NOTE]
+\> [!NOTE]\
 \> Description
 
-\> [!TIP]
+\> [!TIP]\
 \> Description
 
-\> [!IMPORTANT]
+\> [!IMPORTANT]\
 \> Description
 
-\> [!WARNING]
+\> [!WARNING]\
 \> Warning
 
-\> [!CAUTION]
+\> [!CAUTION]\
 \> Caution
 
 <br/>
@@ -333,8 +334,17 @@ Reference [^1]
 > Description
 
 > [!WARNING]
-> Warning
+> Description
 
 > [!CAUTION]
-> Caution
+> Description
+
+<br/>
+
+# Comment
+
+> **Use `<!-- Comment -->`**
+
+
+
 
