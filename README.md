@@ -375,6 +375,6 @@ Reference [^1]
 |---|---|
 | Cell | Cell |
 
-| Left Aligned | Center Aligned | Right Aligned |\
+| Left Aligned | Center Aligned | Right Aligned |
 | :--- | :---: | ---: |
 | Left | Center | Right |
