@@ -19,7 +19,8 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Footnote](#footnote)
 - [Alert](#alert)
 - [Comment](#comment)
-- [Ignore](#markdown)
+- [Ignore](#ignore)
+- [Table](#table)
 
 <br/>
 
@@ -346,8 +347,27 @@ Reference [^1]
 
 > **Use `<!-- Comment -->`**
 
+</br>
 
-# Ignore Markdown
+# Ignore
 
 > **Use `\`**
+
+</br>
+
+# Table
+
+**Input:**
+
+\| Header \| Header \|
+\|---\|---\|
+\| Cell \| Cell \|
+
+<br/>
+
+**Output:**
+
+| Header | Header |
+|---|---|
+| Cell | Cell |
 
