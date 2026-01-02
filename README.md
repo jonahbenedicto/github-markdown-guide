@@ -12,15 +12,15 @@ A Comprehensive Guide to Markdown on GitHub.
 - [Link](#link)
 - [Line break](#line-break)
 - [Image](#image)
-- [List](#list)
+- [List (Unordered List, Ordered List)](#list)
 - [Emoji](#emoji)
 - [Footnote](#footnote)
-- [Alert()](#alert)
+- [Alert (Note, Tip, Important, Warning, Caution)](#alert)
 - [Comment](#comment)
 - [Ignore Markdown Format](#ignore-markdown-format)
 - [Table](#table)
 - [Collapsed Section](#collapsed-section)
-- [Diagram](#diagram)
+- [Diagram (Mermaid, GeoJSON, TopoJSON, STL 3D](#diagram)
 - [Math](#math)
 
 # Paragraph Text
@@ -398,7 +398,7 @@ Details
 Details
 </details>
 
-# Diagrams
+# Diagram
 
 **Mermaid diagram:**
 
