@@ -402,7 +402,7 @@ Details
 
 **Mermaid diagram:**
 
-Input:
+*Input:*
 
 ````
 ```mermaid
@@ -414,7 +414,7 @@ graph TD;
 ```
 ````
 
-Output:
+*Output:*
 
 ```mermaid
 graph TD;
@@ -428,7 +428,7 @@ graph TD;
 
 **GeoJSON diagram:**
 
-Input:
+*Input:*
 
 ````
 ```geojson
@@ -459,7 +459,7 @@ Input:
 ```
 ````
 
-Output:
+*Output:*
 
 ```geojson
 {
@@ -492,7 +492,7 @@ Output:
 
 **TopoJSON diagram:**
 
-Input:
+*Input:*
 ````
 ```topojson
 {
@@ -530,7 +530,7 @@ Input:
 ```
 ````
 
-Output:
+*Output:*
 
 ```topojson
 {
@@ -571,7 +571,7 @@ Output:
 
 **STL 3D Diagram:**
 
-Input:
+*Input:*
 
 ````
 ```stl
@@ -608,7 +608,7 @@ endsolid
 ```
 ````
 
-Output:
+*Output:*
 
 ```stl
 solid cube_corner
@@ -647,26 +647,30 @@ endsolid
 
 # Math
 
-> ** Use `$ $` or `$$ $$`**
+Use `$` symbol.
 
 <br/>
 
 **Inline Math:**
 
-Input:
-`$\sqrt{3x-1}+(1+x)^2$`
-
-Output:
+*Input:*
+```
 $\sqrt{3x-1}+(1+x)^2$
+```
 
-<br/>
+*Output:*
+$\sqrt{3x-1}+(1+x)^2$
 
 **Math Block: **
 
-Input:
-`$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$`
+*Input:*
 
-Output:
+```
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+```
+
+*Output:*
+
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 
