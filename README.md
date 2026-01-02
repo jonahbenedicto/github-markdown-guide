@@ -212,6 +212,8 @@ Bye, <br/> World!
 
 Use `![ ]( )`
 
+[See Link](#link)
+
 # List
 
 **Unordered List:**
@@ -278,11 +280,13 @@ Use `![ ]( )`
 
 # Emoji
 
-> **Use :emojicode:**
+**Use :emojicode:**
 
 **Input:** `:smile:`
 
 **Output:** :smile:
+
+For more information check out: [Emoji List Unicode](https://github.com/Fantantonio/Emoji-List-Unicode)
 
 # Footnote
 
@@ -348,11 +352,33 @@ Reference [^1]
 
 # Comment
 
-> **Use `<!-- Comment -->`**
+**Use `<!-- Comment -->`**
+
+**Input:**
+
+`The server update was <!-- NOT --> successful`
+
+**Output:**
+
+The server update was <!-- NOT --> successful
+
 
 # Ignore Markdown Format
 
-> **Use `\`**
+To stop automatically formatting your text as markdown: 
+** use `/` symbol** in front.
+
+**Input:**
+
+`> Note`
+
+`\> Note`
+
+**Output:**
+
+> Note
+
+\> Note
 
 # Table
 
@@ -589,5 +615,5 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
-
-
+> [!NOTE]
+> For more information visit: [Katex Documentation](https://katex.org/docs/supported.html)
