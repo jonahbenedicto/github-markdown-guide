@@ -360,8 +360,12 @@ Reference [^1]
 **Input:**
 
 \| Header \| Header \|\
-\|---\|---\|\
+\| --- \| --- \|\
 \| Cell \| Cell \|
+
+\| Left Aligned \| Center Aligned \| Right Aligned \|\
+\| :--- \| :---: \| ---: \|\
+\| Left \| Center \| Right \|
 
 <br/>
 
@@ -371,3 +375,6 @@ Reference [^1]
 |---|---|
 | Cell | Cell |
 
+| Left Aligned | Center Aligned | Right Aligned |\
+| :--- | :---: | ---: |
+| Left | Center | Right |
