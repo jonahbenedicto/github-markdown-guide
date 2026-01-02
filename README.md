@@ -143,24 +143,24 @@ Use `[ ]( )`.
 
 **Normal Link:**
 
-Input: 
+*Input:*
 ```
 [Google](https://www.google.com)
 ```
 
-Output: 
+*Output:*
 
 [Google](https://www.google.com)
 
 **Heading Link:**
 
-Input: 
+*Input:*
 
 ```
 [Table of Contents](#table-of-contents)
 ```
 
-Output: 
+*Output:* 
 
 [Table of Contents](#table-of-contents)
 
@@ -169,14 +169,14 @@ Output:
 
 **Custom Anchor Link:**
 
-Input: 
+*Input:*
 
 ```
 [Custom Anchor Link](#custom-anchor-point)
 
 ```
 
-Output: 
+*Output:*
 
 [Custom Anchor Link](#custom-anchor-point)
 
@@ -187,7 +187,8 @@ Use `\` or `<br/>`
 **Input:**
 
 ```
-Hello,\ World!
+Hello,\
+World!
 ```
 
 ```
@@ -196,7 +197,8 @@ Bye, <br/> World!
 
 **Output:**
 
-Hello,\ World!
+Hello,\
+World!
 
 Bye, <br/> World!
 
@@ -216,72 +218,65 @@ Use `![ ]( )`
 
 **Unordered List:**
 
-Input:
+*Input:*
 
-\- Item\
-\* Item\
-\+ Item
+```
+- Item
+* Item
++ Item
+```
 
-<br/>
-
-Output:
+*Output:*
 
 - Item
 * Item
 + Item
 
-<br/>
-
 **Sorted List:**
 
-Input:
+*Input:*
 
-1\. Item\
-2\. Item\
-3\. Item
+```
+1. Item
+2. Item
+3. Item
+```
 
-<br/>
-
-Output:
+*Output:*
 
 1. Item
 2. Item
 3. Item
 
-<br/>
-
 **Nested List:**
 
-Input:
+*Input:*
 
-\- Item \
-&emsp; \- Item \
-&emsp; &emsp; \- Item
+```
+- Item
+    - Item
+        - Item
+```
 
-<br/>
+*Output:*
 
-Output:
 - Item
     - Item
         - Item
 
-<br/>
-
 **Task List:**
 
-Input:
+*Input:*
 
-\- \[x\]\
-\- \[ \]
+```
+- [x] Task
+- [ ] Task
+```
 
-<br/>
-
-Output:
+*Output:*
 
 - [x] Task
 - [ ] Task
-
-<br/>
 
 # Emoji
 
@@ -291,17 +286,15 @@ Output:
 
 **Output:** :smile:
 
-<br/>
-
 # Footnote
 
 **Input:** 
 
-Reference \[\^1\]
+```
+Reference [^1]
 
-\[\^1\]\: Footnote
-
-<br/>
+[^1]: Footnote
+```
 
 **Output:**
 
@@ -309,26 +302,36 @@ Reference [^1]
 
 [^1]: Footnote
 
-<br/>
-
 # Alert
 
-\> [!NOTE]\
-\> Description
+**Input:**
 
-\> [!TIP]\
-\> Description
+```
+> [!NOTE]
+> Description
+```
 
-\> [!IMPORTANT]\
-\> Description
+```
+> [!TIP]
+> Description
+```
 
-\> [!WARNING]\
-\> Warning
+```
+> [!IMPORTANT]
+> Description
+```
 
-\> [!CAUTION]\
-\> Caution
+```
+> [!WARNING]
+> Warning
+```
 
-<br/>
+```
+> [!CAUTION]
+> Caution
+```
+
+**Output:**
 
 > [!NOTE]
 > Description
@@ -345,33 +348,27 @@ Reference [^1]
 > [!CAUTION]
 > Description
 
-<br/>
-
 # Comment
 
 > **Use `<!-- Comment -->`**
-
-</br>
 
 # Ignore
 
 > **Use `\`**
 
-</br>
-
 # Table
 
 **Input:**
 
-\| Header \| Header \|\
-\| --- \| --- \|\
-\| Cell \| Cell \|
+```
+| Header | Header |
+| --- | --- |
+| Cell | Cell |
 
-\| Left Aligned \| Center Aligned \| Right Aligned \|\
-\| :--- \| :---: \| ---: \|\
-\| Left \| Center \| Right \|
-
-<br/>
+| Left Aligned | Center Aligned | Right Aligned |
+| :--- | :---: | ---: |
+| Left | Center | Right |
+```
 
 **Output:**
 
@@ -383,34 +380,23 @@ Reference [^1]
 | :--- | :---: | ---: |
 | Left | Center | Right |
 
-<br/>
-
 # Collapsed Section
 
 **Input:**
 
-\<details\> 
-
-
-\<summary\>Summary\<\/summary\>
-
+```
+<details> 
+<summary>Summary</summary>
 Details
-
-\<\/details\>
-
-<br/>
+</details>
+```
 
 **Output:**
 
 <details>
-
 <summary>Summary</summary>
-
 Details
-
 </details>
-
-<br/>
 
 # Diagrams
 
