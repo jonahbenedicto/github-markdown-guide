@@ -222,14 +222,6 @@ or
 
 Bye, <br/> World!
 
-# Custom Anchor Point
-
-```
-<a name="custom-anchor-point"></a>
-```
-
-<a name="custom-anchor-point"></a>
-
 # Image
 
 Use `![ ]( )` symbols.
@@ -237,11 +229,11 @@ Use `![ ]( )` symbols.
 **Code:**
 
 ```
-[Image](./image.png)
+![Image](./image.png)
 ```
 
 **Preview:**
-[Image](./image.png)
+![Image](./image.png)
 
 # List
 
