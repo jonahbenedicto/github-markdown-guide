@@ -573,88 +573,6 @@ graph TD;
 }
 ```
 
-**TopoJSON diagram:**
-
-**Code:**
-````
-```topojson
-{
-  "type": "Topology",
-  "transform": {
-    "scale": [0.001, 0.001],
-    "translate": [0, 0]
-  },
-  "objects": {
-    "countries": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Polygon",
-          "properties": {"name": "Country A"},
-          "arcs": [[0]]
-        },
-        {
-          "type": "Polygon",
-          "properties": {"name": "Country B"},
-          "arcs": [[1]]
-        },
-        {
-          "type": "MultiPolygon",
-          "properties": {"name": "Islands"},
-          "arcs": [[[2]], [[3]]]
-        }
-      ]
-    }
-  },
-  "arcs": [
-    [[0, 0], [100, 0], [100, 50], [0, 50], [0, 0]],
-    [[150, 0], [200, 0], [200, 60], [150, 60], [150, 0]],
-    [[50, 100], [60, 100], [60, 110], [50, 110], [50, 100]],
-    [[120, 100], [130, 100], [130, 110], [120, 110], [120, 100]]
-  ]
-}
-```
-````
-
-**Preview:**
-```topojson
-{
-  "type": "Topology",
-  "transform": {
-    "scale": [0.001, 0.001],
-    "translate": [0, 0]
-  },
-  "objects": {
-    "countries": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Polygon",
-          "properties": {"name": "Country A"},
-          "arcs": [[0]]
-        },
-        {
-          "type": "Polygon",
-          "properties": {"name": "Country B"},
-          "arcs": [[1]]
-        },
-        {
-          "type": "MultiPolygon",
-          "properties": {"name": "Islands"},
-          "arcs": [[[2]], [[3]]]
-        }
-      ]
-    }
-  },
-  "arcs": [
-    [[0, 0], [100, 0], [100, 50], [0, 50], [0, 0]],
-    [[150, 0], [200, 0], [200, 60], [150, 60], [150, 0]],
-    [[50, 100], [60, 100], [60, 110], [50, 110], [50, 100]],
-    [[120, 100], [130, 100], [130, 110], [120, 110], [120, 100]]
-  ]
-}
-```
-
 # Math
 
 Use `$` symbol.
@@ -662,26 +580,36 @@ Use `$` symbol.
 ## Inline Math
 
 **Code:**
+
 ```
-$\sqrt{3x-1}+(1+x)^2$
+E = mc^2 and $\sqrt{3x-1}+(1+x)^2$
 ```
 
 **Preview:**
-$\sqrt{3x-1}+(1+x)^2$
+
+E = mc^2 and $\sqrt{3x-1}+(1+x)^2$
 
 ## Math Block
 
 **Code:**
 
 ```
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$
+\int_{a}^{b} f(x) dx = F(b) - F(a)
+$$
 ```
 
 **Preview:**
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+$$
+\int_{a}^{b} f(x) dx = F(b) - F(a)
+$$
 
 > [!NOTE]
-> For more information visit: [Katex Documentation](https://katex.org/docs/supported.html)
+> For more information visit: [Katex Docs](https://katex.org/docs/supported.html)
 
 # Quick Tips
+
+---
+
+*Keep this guide handy for quick reference. Contribute via PR.*
