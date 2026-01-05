@@ -185,8 +185,8 @@ Use `[ ]( )` symbols.
 
 [Custom Anchor Link](#custom-anchor-point)
 
-A custom anchor link must have a custom anchor point.
-
+> [!NOTE]
+> A custom anchor link must have a corresponding custom anchor point.
 
 **Code:**
 ```
@@ -279,11 +279,9 @@ Use `![ ]( )` symbols.
 ```
 
 **Preview:**
-```
 - Item
     - Item
         - Item
-```
 
 ## Task List
 
@@ -311,19 +309,28 @@ For more information check out: [Emoji List Unicode](https://github.com/Fantanto
 
 # Footnote
 
-**Input:** 
+**Code:** 
 
 ```
 Reference [^1]
-
-[^1]: Footnote
 ```
 
-**Output:**
+**Preview:**
 
 Reference [^1]
 
+> [!NOTE]
+> A Reference must have a corresponding Footnote
+
+**Code:**
+```
 [^1]: Footnote
+```
+
+**Preview:**
+[Jump to footnote](#real-footnote)
+
+[^1]: Footnote <a name="real-footnote"></a>
 
 # Alert
 
