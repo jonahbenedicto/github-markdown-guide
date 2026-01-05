@@ -436,14 +436,14 @@ To stop automatically formatting your text as markdown:
 
 **Code:**
 ```
-| Left | Center | Right |
+| Left Alignment | Center Alignment | Right Alignment |
 | :--- | :---: | ---: |
 | Left | Center | Right |
 ```
 
 **Preview:**
 
-| Left | Center | Right |
+| Left Alignment | Center Alignment | Right Alignment |
 | :--- | :---: | ---: |
 | Left | Center | Right |
 
@@ -467,28 +467,26 @@ Hidden content here
 
 # Diagrams
 
-**Mermaid diagram:**
+## Mermaid Diagram
 
-*Input:*
+**Code:**
 
 ````
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A[Start] --> B{Decision};
+    B --> C[Yes];
+    B --> D[No];
 ```
 ````
 
-*Output:*
+**Preview:**
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A[Start] --> B{Decision};
+    B --> C[Yes];
+    B --> D[No];
 ```
 
 **GeoJSON diagram:**
