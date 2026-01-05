@@ -105,6 +105,8 @@ Use `` ` `` symbol.
 
 `Inline code`
 
+You can begin and end with two `` ` `` symbols to use `` ` `` in a code block.
+
 ## Block code
 
 **Code:**
@@ -121,46 +123,55 @@ print("Hello, World!")
 print("Hello, World!")
 ```
 
+You can specify the programming language.
+You can begin and end with four `` ` `` symbols to use ```` ``` ```` in a code block.
+
 # Link
 
-Use `[ ]( )`.
+Use `[ ]( )` symbols.
 
-**Normal Link:**
+## Normal Link
 
-*Input:*
+**Code:**
 ```
 [Google](https://www.google.com)
 ```
 
-*Output:*
+**Preview:**
 
 [Google](https://www.google.com)
 
-**Heading Link:**
+## Anchor Link
 
-*Input:*
+**Code:**
 
 ```
 [Table of Contents](#table-of-contents)
 ```
 
-*Output:* 
+**Preview:** 
 
 [Table of Contents](#table-of-contents)
 
-**Relative Link:**
+## Relative Link
 
+**Code:**
+```
+[image.png](./image.png)
+```
 
-**Custom Anchor Link:**
+**Preview:**
+[image.png](./image.png)
 
-*Input:*
+## Custom Anchor Link
+
+**Code:**
 
 ```
 [Custom Anchor Link](#custom-anchor-point)
-
 ```
 
-*Output:*
+**Preview:**
 
 [Custom Anchor Link](#custom-anchor-point)
 
@@ -168,21 +179,24 @@ Use `[ ]( )`.
 
 Use `\` or `<br/>`
 
-**Input:**
+**Code:**
 
 ```
 Hello,\
 World!
-```
 
-```
+or
+
 Bye, <br/> World!
 ```
 
-**Output:**
+
+**Preview:**
 
 Hello,\
 World!
+
+or
 
 Bye, <br/> World!
 
