@@ -244,14 +244,14 @@ Use `![ ]( )` symbols.
 ```
 - Item
 * Item
-    + Item
++ Item
 ```
 
 **Preview:**
 
 - Item
 * Item
-    + Item
++ Item
 
 ## Sorted List
 
@@ -268,6 +268,22 @@ Use `![ ]( )` symbols.
 1. Item
 2. Item
 3. Item
+
+## Nested List
+
+**Code:**
+```
+- Item
+    - Item
+        - Item
+```
+
+**Preview:**
+```
+- Item
+    - Item
+        - Item
+```
 
 ## Task List
 
