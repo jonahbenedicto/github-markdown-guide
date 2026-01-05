@@ -305,7 +305,8 @@ Use `![ ]( )` symbols.
 
 **Output:** :smile:
 
-For more information check out: [Emoji List Unicode](https://github.com/Fantantonio/Emoji-List-Unicode)
+> [!NOTE]
+> For more information check out: [Emoji List Unicode](https://github.com/Fantantonio/Emoji-List-Unicode)
 
 # Footnote
 
@@ -328,13 +329,14 @@ Reference [^1]
 ```
 
 **Preview:**
+
 [Jump to footnote](#real-footnote)
 
 [^1]: Footnote <a name="real-footnote"></a>
 
 # Alert
 
-**Input:**
+**Code:**
 
 ```
 > [!NOTE]
@@ -361,7 +363,7 @@ Reference [^1]
 > Description
 ```
 
-**Output:**
+**Preview:**
 
 > [!NOTE]
 > Description
@@ -382,78 +384,85 @@ Reference [^1]
 
 **Use `<!-- Comment -->`**
 
-**Input:**
+**Code:**
 
 ```
-The server update was <!-- NOT --> successful
+Visible text <!-- hidden comment -->
 ```
 
-**Output:**
+**Preview:**
 
-The server update was <!-- NOT --> successful
+Visible text <!-- hidden comment -->
 
 
 # Ignore Markdown
 
 To stop automatically formatting your text as markdown: 
-**use `/` symbol** in front.
+**use `/` symbol**:
 
-**Input:**
-
-```
-> Note
-```
+**Code:**
 
 ```
-\> Note
+\*Not italic\*
+\# Not a heading
+\> Not a quote
 ```
 
-**Output:**
+**Preview:**
 
-> Note
-
-\> Note
+\*Not italic\*
+\# Not a heading
+\> Not a quote
 
 # Table
 
-**Input:**
+## Basic Table
+
+**Code:**
 
 ```
 | Header | Header |
 | --- | --- |
 | Cell | Cell |
-
-| Left Aligned | Center Aligned | Right Aligned |
-| :--- | :---: | ---: |
-| Left | Center | Right |
 ```
 
-**Output:**
+**Preview:**
 
 | Header | Header |
 |---|---|
 | Cell | Cell |
 
-| Left Aligned | Center Aligned | Right Aligned |
+## Table Alignment
+
+**Code:**
+```
+| Left | Center | Right |
+| :--- | :---: | ---: |
+| Left | Center | Right |
+```
+
+**Preview:**
+
+| Left | Center | Right |
 | :--- | :---: | ---: |
 | Left | Center | Right |
 
 # Collapsed Section
 
-**Input:**
+**Code:**
 
 ```
-<details> 
-<summary>Summary</summary>
-Details
+<details>
+<summary>Click to expand</summary>
+Hidden content here 
 </details>
 ```
 
-**Output:**
+**Preview:**
 
 <details>
-<summary>Summary</summary>
-Details
+<summary>Click to expand</summary>
+Hidden content here 
 </details>
 
 # Diagrams
